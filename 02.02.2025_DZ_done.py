@@ -22,7 +22,6 @@ for column in columns_task_1:
         ws[cell] = random.randint(1,100)
 
 # 2nd sheet task
-columns_task_2 = ['A', 'B', 'C']
 ws1 = wb.create_sheet("2nd sheet")
 date = dt.datetime.now().strftime("%d-%m-%Y")
 for i in range(1, 21):
